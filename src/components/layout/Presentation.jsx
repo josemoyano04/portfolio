@@ -3,6 +3,7 @@ import { GitHubIcon } from "../icons/Github";
 import { LinkedInIcon } from "../icons/Linkedin";
 import { PcSmartphoneIcon } from "../icons/PcSmartphone";
 import { Badge } from "../common/Bagde";
+import avatar from "../../assets/avatar.jpg"
 
 export function Presentation() {1
   return (
@@ -13,7 +14,7 @@ export function Presentation() {1
         <h2>Desarrollador Backend</h2>
 
           <p>
-            <img src="src/assets/avatar.jpg" alt="Imagen de Jose" className="avatar-for-small-screen"/>
+            <img src={avatar} alt="Imagen de Jose" className="avatar-for-small-screen"/>
             Apasionado por <strong>aprender</strong> y resolver problemas,{" "}
             <strong>enfocado</strong> en construir soluciones funcionales y
             efectivas. Siempre en busca de <strong>desafíos</strong> que impulsen
@@ -46,7 +47,7 @@ export function Presentation() {1
       </section>
  
       <section className="avatar">
-          <img src="src/assets/avatar.jpg" alt="Imagen de Jose" />
+          <img src={avatar} alt="Imagen de Jose" />
           <Badge className="badge">Disponible para trabajar</Badge>
       </section>
     </main>
