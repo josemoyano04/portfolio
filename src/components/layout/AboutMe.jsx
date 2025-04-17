@@ -1,4 +1,5 @@
 import "../../styles/AboutMe.css"
+import avatar from "../../assets/avatar.jpg"
 
 export function AboutMe(props) {
     return (
@@ -7,7 +8,7 @@ export function AboutMe(props) {
             className="about-me-article">
             <h2>Sobre mí</h2> 
             <section className="text">
-                <img src="/src/assets/avatar.jpg" alt="Avatar de Jose" />
+                <img src={avatar} alt="Avatar de Jose" />
                 <p>
                     ¡Hola!, soy José Moyano, programador y estudiante de Ingeniería Informática en la Universidad Nacional Arturo Jauretche. 
                 <br />
