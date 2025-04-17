@@ -1,0 +1,65 @@
+.badge-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.badge-border {
+  position: relative;
+  display: inline-flex;
+  padding: 2px;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.badge-border::before {
+  content: "";
+  position: absolute;
+  inset: -1000%;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    #06161044 0deg,
+    #0C2C2188 150deg,
+    #12323399 165deg,
+    #194844aa 180deg,
+    #1F5E55bb 195deg,
+    #267466cc 210deg,
+    #2C8A77dd 225deg,
+    #32A088ee 240deg,
+    #39B699ff 255deg,
+    #3FCCAAff 270deg,
+    #46BD9Dff 285deg,
+    #46BD9Dff 300deg,
+    #46BD9Dcc 315deg,
+    #46BD9D99 330deg,
+    #46BD9D66 345deg,
+    #46BD9D44 360deg
+  );
+  
+  animation: spin 5s linear infinite;
+  z-index: 0;
+}
+
+.badge-content {
+  display: flex;
+  height: 2rem;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  background-color: #172421;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 16px;
+  color: currentColor;
+}
+
+/* Animación */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

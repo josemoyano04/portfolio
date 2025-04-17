@@ -1,0 +1,47 @@
+.site-footer {
+    width: 100%;
+    padding: 0.75rem;
+    justify-content: space-between;
+    color: #DDD7;
+    border-top: 1px solid #46BD9D;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.footer-links a {
+    color: #46BD9D77;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #DDD;
+    color: #46BD9D;
+}
+
+
+@media (max-width: 768px) {
+    .footer-links {
+        display: none;
+    }
+    
+    .footer-content {
+        justify-content: center;
+    }
+}
+

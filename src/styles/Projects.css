@@ -1,0 +1,28 @@
+.projects-section {
+    width: 100%;
+    height: auto;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.projects-section h2 {
+    font-size: 2.5rem;
+    color: currentColor;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .projects-section {
+        margin-top: 5rem;
+        border: 1px solid green;
+    }
+
+    .projects-section h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+}

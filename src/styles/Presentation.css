@@ -1,0 +1,152 @@
+.presentation {
+    display: flex;
+    width: 100%;
+    height: 280px;
+    align-items: center;
+    margin-top: 10rem;    
+}
+
+.presentation-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100%;    
+
+
+}
+
+.presentation-text h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.presentation-text h2 {
+    font-size: 1.5rem;
+    color: #46bd9d;
+    font-weight: 800;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;      
+}
+
+
+.presentation-text strong {
+    color: #46BD9D;
+    font-weight: 400;
+}
+
+.presentation-text p {
+    font-size: 1rem;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.avatar img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 0.2rem #46DB9D);
+}
+
+.links-section {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.link-button {
+    width: max-content;
+    height: auto;
+    display: flex;
+    align-items: center;
+    fill: transparent;
+    color: #DDDE;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    transition: 100ms;
+}
+
+.link-button:hover {
+    background-color: #46BD9Daa;
+    scale: 1.1;
+}
+
+.avatar-for-small-screen {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .presentation {
+        margin-top: 2rem;
+        height: max-content;
+    }
+
+    .presentation-text {
+        display: block;
+    }
+    
+    .presentation h1 {
+        margin-bottom: 1rem;
+    }
+    
+    .avatar img {
+        width: 150px;
+        margin: auto;
+    }
+    
+    .projects-link {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .presentation {
+        margin-top: 2rem;
+        height: max-content;
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .presentation h1 {
+        font-size: 2.5rem;
+    }
+    .presentation h2 {
+        font-size: 1.5rem;
+    }
+
+    .presentation p {
+        font-size: 1.1rem;
+    }
+    .links-section {
+        margin-top: 2rem;
+    }
+
+    .avatar img {
+        display: none;
+    }
+    .badge {
+        display: none;
+    }
+
+    .avatar-for-small-screen {
+        display: block;
+        width: 120px;
+        height: max-content;
+        border-radius: 50%;
+        box-shadow: 0 0 0.5rem #46BD9D;
+        float: right;
+    }
+}
