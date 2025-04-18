@@ -77,7 +77,6 @@
 @media (max-width: 768px) {
     .skills {
         margin-top: 3rem;
-        border: 1px solid blue;
     }
 
     .skills h2 {
