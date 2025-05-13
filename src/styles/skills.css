@@ -30,7 +30,8 @@
     align-items: center;
     justify-content: center;
     width: max-content;
-    height: max-content}
+    height: max-content
+}
 
 .skill-icon {
     font-size: 5rem;
@@ -47,8 +48,8 @@
     transition-duration: 0.21s;
 }
 
-.skills-list li:hover .skill-icon{
-    filter: drop-shadow(0 0 0.5rem #46bd9ddd);
+.skills-list li:hover .skill-icon {
+    filter: drop-shadow(0 0 0.1rem #46bd9ddd);
 }
 
 .skills-list li:hover .skill-name {
@@ -64,7 +65,7 @@
 
 .skill-for-type-section h3 {
     margin-bottom: 1rem;
-    font-size: 1.5rem   ;
+    font-size: 1.5rem;
 }
 
 .skills-group {
@@ -82,11 +83,12 @@
     .skills h2 {
         font-size: 2rem;
     }
+
     .skills-list {
         width: 100%;
         border: 1px solid #DDD5;
     }
-    
+
 }
 
 @media (max-width: 480px) {
@@ -98,8 +100,8 @@
         color: #DDDA;
         width: 5rem;
     }
-    
-    .skills-list li:hover .skill-icon{
+
+    .skills-list li:hover .skill-icon {
         filter: none;
     }
 }

@@ -7,8 +7,9 @@
     scroll-behavior: smooth;
 }
 
-html, body, #root
-{
+html,
+body,
+#root {
     width: 100%;
     height: auto;
     font-size: 20px;
@@ -28,6 +29,7 @@ body {
     justify-content: end;
     align-items: center;
     background-color: #101010;
+    padding: 0 1rem;
 }
 
 .background {

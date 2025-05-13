@@ -1,6 +1,6 @@
     .navbar {
         width: 100%;
-        height:  2.5rem;
+        height: 2.5rem;
         padding-left: 1rem;
         padding-right: 1rem;
         display: flex;
@@ -18,7 +18,7 @@
 
     .navbar-menu {
         height: 3rem;
-        display:  flex;
+        display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
@@ -34,7 +34,7 @@
         cursor: pointer;
         color: #ccc;
         border-radius: 80px;
-        transition: 0.1s;
+        transition: 200ms;
 
     }
 
@@ -60,7 +60,8 @@
             justify-content: center;
             align-content: center;
         }
-        .navbar-menu{
+
+        .navbar-menu {
             display: none;
             border: 1px solid green;
         }
