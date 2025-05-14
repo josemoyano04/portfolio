@@ -1,10 +1,10 @@
 import '../../styles/Navbar.css'
 import { JmDevIcon } from "../icons/JmDev.jsx"
 
-export function Navbar() {
+export function Navbar(props) {
   return (
     <>
-      <nav className="navbar">
+      <nav {...props} className="navbar">
 
 
         <JmDevIcon className="logo" />

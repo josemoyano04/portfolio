@@ -4,21 +4,13 @@
     justify-content: center;
     align-items: start;
     max-width: var(--max-width-large-screen);
-    min-width: 580px;
     width: 100%;
     margin: 0 auto;
-    /* padding: 1rem; */
+    position: relative;
 }
 
 @media (max-width: 768px) {
     .app {
-        min-width: 550px;
         padding: 0 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .app {
-        min-width: none;
     }
 }

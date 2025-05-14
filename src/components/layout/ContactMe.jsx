@@ -40,7 +40,7 @@ export function ContactMe() {
 
     return (
         <article className='contact-me' id='contact-me'>
-            <h2 className='title'>Contactame</h2>
+            <h2 className='title'>Contáctame</h2>
             <section className='form-section'>
                 <form className='contact-form' onSubmit={handleSubmit}>
                     <label htmlFor="name">Nombre</label>

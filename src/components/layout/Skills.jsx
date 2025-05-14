@@ -26,6 +26,7 @@ export function Skills() {
   return (
     <aside id="skills" className="skills">
       <h2>Habilidades</h2>
+
       <ul className="skills-list">
         <section className="skill-for-type-section">
           <h3>Lenguajes y Frameworks</h3>
@@ -43,30 +44,30 @@ export function Skills() {
         <section className="skill-for-type-section">
           <h3>Herramientas</h3>
           <div className="skills-group">
-          {
-            tools.map((skill) => (
-               <li key={skill.name}>
-                <span className="skill-icon">{skill.icon}</span>
-                <span className="skill-name">{skill.name}</span>
-              </li>
-            )
-            )
-          }
+            {
+              tools.map((skill) => (
+                <li key={skill.name}>
+                  <span className="skill-icon">{skill.icon}</span>
+                  <span className="skill-name">{skill.name}</span>
+                </li>
+              )
+              )
+            }
           </div>
         </section>
 
         <section className="skill-for-type-section">
           <h3>Conocimientos y aplicaciones generales</h3>
           <div className="skills-group">
-          {
-            general.map((skill) => (
-               <li key={skill.name}>
-                <span className="skill-icon">{skill.icon}</span>
-                <span className="skill-name">{skill.name}</span>
-              </li>
-            )
-            )
-          }
+            {
+              general.map((skill) => (
+                <li key={skill.name}>
+                  <span className="skill-icon">{skill.icon}</span>
+                  <span className="skill-name">{skill.name}</span>
+                </li>
+              )
+              )
+            }
           </div>
         </section>
       </ul>

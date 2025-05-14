@@ -1,0 +1,28 @@
+.icon {
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #cccc;
+    background-color: #333;
+    border-radius: 0.25rem;
+    position: fixed;
+    z-index: 1;
+    bottom: 1rem;
+    right: 1rem;
+    transition: 300ms;
+    opacity: 50%;
+}
+
+.icon a {
+    color: currentColor;
+}
+
+
+.icon:hover {
+    background-color: #46BD9D55;
+    opacity: 100%;
+}
+
+.icon:active {
+    scale: 1.1;
+}

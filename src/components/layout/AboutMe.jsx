@@ -16,13 +16,13 @@ export function AboutMe(props) {
                     Paso mis días entre líneas de código, ideas nuevas y el desafío constante de encontrar soluciones eficientes. Me gusta entender
                     cómo funcionan las cosas, desarmarlas mentalmente y buscar maneras de mejorarlas. Disfruto cada momento en el que aprendo algo nuevo,
                     porque sé que siempre hay espacio para crecer y perfeccionar lo que hago.
-                    <br />
+                    {/* <br />
                     Cuando no estoy metido en proyectos o explorando conceptos, me gusta compartir lo que sé, intercambiar ideas y colaborar
                     con otros. Creo que la mejor manera de avanzar es rodearse de gente con ganas de construir, aprender y crear algo que realmente marque
                     la diferencia.
                     <br />
                     Al final del día, más allá de la tecnología, lo que me mueve es la curiosidad, las ganas de resolver problemas y la satisfacción de ver
-                    algo en lo que trabajé cobrar vida.
+                    algo en lo que trabajé cobrar vida. */}
                 </p>
             </section>
 

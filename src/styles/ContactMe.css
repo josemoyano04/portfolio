@@ -22,8 +22,10 @@
         margin: auto;
         background-color: #3333;
         border-radius: 1rem;
+        border: 0.1px solid #cccc;
 
     }
+
 
     .contact-form input {
         width: 100%;
@@ -63,4 +65,19 @@
 
     .contact-form button:active {
         scale: 1.1;
+    }
+
+    @media (max-width: 768px) {
+        .contact-me {
+            margin-top: 3rem;
+        }
+
+        .contact-form {
+            width: 90%;
+        }
+
+        .contact-form label {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
     }

@@ -6,17 +6,19 @@ import { Skills } from "./components/layout/Skills"
 import { AboutMe } from "./components/layout/AboutMe"
 import { Footer } from "./components/layout/Footer"
 import { ContactMe } from "./components/layout/ContactMe"
+import { TopArrow } from "./components/common/TopArrow"
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      <Navbar id="navbar" />
       <Presentation />
       <Projects />
       <Skills />
       <AboutMe />
       <ContactMe />
       <Footer />
+      <TopArrow redirectTo="#navbar" />
     </div>
   )
 }
