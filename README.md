@@ -6,11 +6,12 @@ Este es un proyecto de **portfolio personal** desarrollado con React. Tiene como
 
 - **React** – Librería principal para el desarrollo del frontend.
 - **Vite** – Bundler ultrarrápido para desarrollo.
-- **CSS** 
+- **CSS**
 - **JavaScript (ES6+)**
 - **Iconos SVG personalizados**
 
 ---
+
 Desarrollado con dedicación como parte de mi formación y crecimiento en el desarrollo web.
 Gracias por visitar mi portfolio.
 Jose Moyano
