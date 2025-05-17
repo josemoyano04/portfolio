@@ -8,9 +8,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "build": "vite build",
     "prepare-cname": "echo 'jmdev.site' > dist/CNAME",
-    "deploy": "npm run build && npm run prepare-cname && gh-pages -d dist"
+    "build": "vite build && npm run prepare-cname" ,
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
